@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="si.css">
+    
+
+</head>
+<body>
+    <h1 class="heading">SIMPLE INTEREST CALCULATOR</h1>
+    <div class="sw">
+        <tbody>
+            <tr>
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </tr>
+            <br><br>
+
+            <tr>
+                <label for="rate">Rate</label>
+                <input type="number" id="rate" placeholder="Enter rate">
+
+            </tr>
+            <br><br>
+            <tr>
+                <label for="time">Time</label>
+                <input type="number" id="time" placeholder="Enter number">
+                
+            </tr>
+            <br><br>
+            <tr>
+                <button id="btn" onclick="Compute()">Calculate</button>
+            </tr>
+            <br>
+            <div class="result">
+
+                <p id="a"></p>
+                <p id="b"></p>
+                <p id="si"></p>
+                <p id="c"></p>
+            </div>
+        </tbody>
+    </div>
+    <footer class="footer">
+
+        &#169; This Calculator belongs to Saumitra Kumar Mishra
+
+
+</footer>
+</body>
+<script src="si.js"></script>
+</html>
