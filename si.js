@@ -12,7 +12,7 @@ function showRange() {
 
     
     let s=document.getElementById("a").innerHTML="If you deposit "+a 
-    let d=document.getElementById("b").innerHTML="at an interest rate of"+b
+    let d=document.getElementById("b").innerHTML="at an interest rate of "+b
     let r=document.getElementById("si").innerHTML="You will receive an amount of "+si
     let final=document.getElementById("c").innerHTML="in the year "+year
     if(parseInt(a)<1){
