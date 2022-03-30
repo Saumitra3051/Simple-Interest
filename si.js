@@ -1,6 +1,6 @@
 function showRange() {
 	var rate = document.getElementById("rate").value;
-	document.getElementById("ratevalue").innerHTML = rate;
+	document.getElementById("ratevalue").innerHTML = rate+"%";
 }function Compute(){
     // simple interest 
     let a=document.getElementById("amount").value;
