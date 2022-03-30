@@ -16,20 +16,20 @@ function showRange() {
     let r=document.getElementById("si").innerHTML="You will receive an amount of "+si
     let final=document.getElementById("c").innerHTML="in the year "+year
     if(parseInt(a)<1){
-	    alert("Please Enter a positive number")}
+	    alert("Please enter a positive number")}
 //    alert funtion
     if(a==""){
-        alert("please enter Amount");
+        alert("Please enter a positive number");
         
     }
     
     if(b==""){
-        alert("please enter Rate");
+        alert("Please enter Rate");
 
     }
    
     if(c==""){
-        alert("please enter Time");
+        alert("Please enter Time");
     } 
 
    
