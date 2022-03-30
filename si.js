@@ -1,4 +1,7 @@
-function Compute(){
+function showRange() {
+	var rate = document.getElementById("rate").value;
+	document.getElementById("ratevalue").innerHTML = rate;
+}function Compute(){
     // simple interest 
     let a=document.getElementById("amount").value;
     let b=document.getElementById("rate").value;
