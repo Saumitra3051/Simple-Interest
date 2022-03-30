@@ -15,6 +15,8 @@ function showRange() {
     let d=document.getElementById("b").innerHTML="at an interest rate of"+b
     let r=document.getElementById("si").innerHTML="You will receive an amount of "+si
     let final=document.getElementById("c").innerHTML="in the year "+year
+    if(parseInt(a)<1){
+	    alert("Please Enter a positive number")}
 //    alert funtion
     if(a==""){
         alert("please enter Amount");
